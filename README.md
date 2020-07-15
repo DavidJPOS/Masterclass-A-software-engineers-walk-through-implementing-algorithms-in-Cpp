@@ -1,5 +1,7 @@
 # James-Gillers-coruse-in-cpp
 
+__WE WILL THINK OF A BETTER NAME FOR THE TALK AND REP0__
+
 Here is the companion repo that contains links to software and additional resources that you may find useful.
 
 Here is the link to [live event]()
