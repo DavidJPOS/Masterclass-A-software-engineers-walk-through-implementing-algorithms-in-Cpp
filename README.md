@@ -1,4 +1,4 @@
-# Masterclass: A software engineers  walk through implementing algorithms in  C++
+# Masterclass: A software engineers  walkthrough implementing algorithms in  C++
 
 Here is the companion repo that contains links to software and additional resources that you may find useful.
 
