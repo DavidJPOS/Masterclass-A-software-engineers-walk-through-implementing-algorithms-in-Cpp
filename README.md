@@ -18,7 +18,7 @@ Description of code used for walkthrough.
 
 ## Software
 
-Online C++ compiler: (godbolt)[https://godbolt.org/].
+Online C++ compiler: [godbolt](https://godbolt.org/).
 
 ## Other resources
 
