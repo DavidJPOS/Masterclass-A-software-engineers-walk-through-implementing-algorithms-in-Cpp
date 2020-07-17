@@ -12,6 +12,10 @@ In this talk, [James Giller](https://www.linkedin.com/in/jamesgiller/) will lead
 
 James Giller is a software engineer for Land Rover Jaguar and is currently working on implementing sensor fusion algorithms for use in autonomous driving vehicles. He holds an undergraduate degree in computer science from UCC, an MEng in robotics from Osaka University, Japan, and, before joining JLR, he worked extensively in software engineering for robotics.
 
+## Before the event
+
+Here will be a list of a few things that will allow you follow along during the talk. To be populated by Monday. 
+
 ## Code
 
 Description of code used for walkthrough.
