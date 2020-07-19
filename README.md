@@ -14,7 +14,7 @@ James Giller is a software engineer for Land Rover Jaguar and is currently worki
 
 ## Before the event
 
-Here will be a list of a few things that will allow you follow along during the talk. To be populated by Monday. 
+
 
 ## Code
 
