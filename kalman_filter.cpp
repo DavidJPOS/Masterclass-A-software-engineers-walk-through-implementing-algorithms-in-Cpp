@@ -126,7 +126,7 @@ public:
     arma::mat S = _H * _P * _H.t() + _R;
     arma::mat K = _P * _H.t() * S.i();
     arma::vec x_post = _x + K * y;
-    arma::mat m_K = arma::eye(arma::size(_H)) - K * _H;
+    arma::mat m_K = arma::eye(K.n_rows, _H.n_cols) - K * _H;
     arma::mat P_post = m_K * _P * m_K.t() + K * _R * K.t();
     _x = x_post;
     _P = P_post;
@@ -171,4 +171,31 @@ RCPP_MODULE(kalman_filter)
 //
 
 /*** R
+# Example from MATLAB
+zs <- scan(file="position_data.csv", what = list(x = 0.0, y = 0.0), sep = ",")
+x_dim <- 6
+z_dim <- 2
+kalman_filter <- new(KalmanFilter, x_dim, z_dim)
+x0 <- c(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+P0 <- array(0.0, c(6, 6))
+kalman_filter$initialiseEstimate(x0, P0)
+dt <- 1.0 # seconds
+F_mat <- t(array(c(1.0, 0.0, dt, 0.0, 0.0, 0.0, # x
+                   0.0, 1.0, 0.0, dt, 0.0, 0.0, # y
+                   0.0, 0.0, 1.0, 0.0, dt, 0.0, # vx
+                   0.0, 0.0, 0.0, 1.0, 0.0, dt, # vy
+                   0.0, 0.0, 0.0, 0.0, 1.0, 0.0, # ax
+                   0.0, 0.0, 0.0, 0.0, 0.0, 1.0), # ay
+                 c(6, 6)))
+Q_mat <- diag(6);
+kalman_filter$setProcessModel(F_mat, Q_mat)
+H_mat <- t(array(c(1.0, 0.0, 0.0, 0.0, 0.0, 0.0, # select x
+                   0.0, 1.0, 0.0, 0.0, 0.0, 0.0), # select y
+                 c(6, 2)))
+R_mat <- 1000 * diag(2)
+kalman_filter$setMeasurementModel(H_mat, R_mat)
+# Iterate the following
+prediction <- kalman_filter$predict()
+z <- array(c(zs$x[1], zs$y[1]), c(2, 1))
+estimate <- kalman_filter$update(z)
 */
