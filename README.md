@@ -12,20 +12,29 @@ In this talk, [James Giller](https://www.linkedin.com/in/jamesgiller/) will lead
 
 James Giller is a software engineer for Land Rover Jaguar and is currently working on implementing sensor fusion algorithms for use in autonomous driving vehicles. He holds an undergraduate degree in computer science from UCC, an MEng in robotics from Osaka University, Japan, and, before joining JLR, he worked extensively in software engineering for robotics.
 
+After the talk you will be able to implement a simple Kalman filter in C++ and use if from R.
+
+
 ## Before the event
 
 
 
 ## Code
 
-Description of code used for walkthrough.
+Code will be avaraible
 
-## Software
+## Tutorials and useful links for R and C++
 
-Online C++ compiler: [godbolt](https://godbolt.org/).
+- The [rcpp](https://cran.r-project.org/web/packages/Rcpp/vignettes/Rcpp-introduction.pdf) introduction.
+- Advanced R by Hadley Wickham contains useful walk guide to C++ and R can be found [here](http://adv-r.had.co.nz/Rcpp.html).
+- Online IDE for R [here](https://rstudio.cloud).
+- You can download R from [here](https://www.r-project.org/).
+- RStudios is a powerful IDE for R, we will use to compile the C++ code, can be found [here](https://rstudio.com/products/rstudio/download/).
+- ggplot function references [here](https://ggplot2.tidyverse.org/reference/).
+- An extensive introduction to ggplot2 [here](http://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html).
 
-## Other resources
+## Free books on R
 
-* [Base R]().
-* [Rstudio IDE](https://rstudio.com/products/rstudio/).
-* The [rcpp](https://cran.r-project.org/web/packages/Rcpp/vignettes/Rcpp-introduction.pdf) introduction.
+- Free online cook book for getting started with R [here](https://rstudio-education.github.io/tidyverse-cookbook/).
+- Free online version of R for Data Science by Garrett Grolemund and Hadley Wickham [here](https://r4ds.had.co.nz/).
+- Free online version of R Cookbook by James (JD) Long and Paul Teetor [here](https://rc2e.com/).
