@@ -18,6 +18,8 @@ You will be able to find an R studio cloud instance with the code and packages i
 
 After the talk you will be able to implement a simple Kalman filter in C++ and use if from R for estimate position from sensor data.
 
+![GitHub Logo](/filter_y.gif)
+
 ## Tutorials and useful links for R and C++
 
 - The [rcpp](https://cran.r-project.org/web/packages/Rcpp/vignettes/Rcpp-introduction.pdf) introduction.
