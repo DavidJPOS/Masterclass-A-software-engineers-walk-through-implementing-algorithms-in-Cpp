@@ -2,7 +2,8 @@
 
 Here is the companion repo that contains links to software and additional resources that you may find useful.
 
-Here is the link to [live event](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWNmMThmZTItMzIxNS00ZGIwLTg1MjYtNWVkYjM2MjlkMDM2%40thread.v2/0?context=%7b%22Tid%22%3a%220084b924-3ab4-4116-9251-9939f695e54c%22%2c%22Oid%22%3a%223d118b9f-3781-4f76-bba6-8a49e4481cf2%22%2c%22IsBroadcastMeeting%22%3atrue%7d).
+- Here is the link to [live event](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWNmMThmZTItMzIxNS00ZGIwLTg1MjYtNWVkYjM2MjlkMDM2%40thread.v2/0?context=%7b%22Tid%22%3a%220084b924-3ab4-4116-9251-9939f695e54c%22%2c%22Oid%22%3a%223d118b9f-3781-4f76-bba6-8a49e4481cf2%22%2c%22IsBroadcastMeeting%22%3atrue%7d).
+- R studio cloud instance with the code and packages installed for the talk [here](https://rstudio.cloud/project/1471581). 
 
 ## Outline
 
