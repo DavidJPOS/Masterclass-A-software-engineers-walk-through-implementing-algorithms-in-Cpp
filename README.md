@@ -15,7 +15,7 @@ James Giller is a software engineer for Land Rover Jaguar and is currently worki
 
 ## Before the event
 
-You will be able to find an R studio cloud instance with the code and packages installed for the talk [here](https://rstudio.cloud/project/1471581). If this is your first time using R studio cloud, you may need to create an account. The file `Talk_code_Kalman_fitler.r` contains the code for the talk.  After the talk, all the code will be available here. 
+You will be able to find an R studio cloud instance with the code and packages installed for the talk [here](https://rstudio.cloud/project/1471581). If this is your first time using R studio cloud, you may need to create an account. The file `Talk_code_Kalman_fitler.r` contains the code for the talk.  After the talk, all the code will be available in this repo. 
 
 After the talk you will be able to implement a simple Kalman filter in C++ and use if from R for estimate position from sensor data.
 
