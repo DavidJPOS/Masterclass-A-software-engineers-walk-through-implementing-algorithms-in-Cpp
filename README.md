@@ -22,7 +22,7 @@ After the talk you will be able to implement a simple Kalman filter in C++ and u
 
 ## Tutorials and useful links for R and C++
 
-- The [rcpp](https://cran.r-project.org/web/packages/Rcpp/vignettes/Rcpp-introduction.pdf) introduction.
+- An [rcpp](https://cran.r-project.org/web/packages/Rcpp/vignettes/Rcpp-introduction.pdf) introduction.
 - Advanced R by Hadley Wickham contains useful walk guide to C++ and R can be found [here](http://adv-r.had.co.nz/Rcpp.html).
 - Online IDE for R [here](https://rstudio.cloud).
 - You can download R from [here](https://www.r-project.org/).
