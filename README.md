@@ -23,7 +23,7 @@ After the talk you will be able to implement a simple Kalman filter in C++ and u
 
 ## Tutorials and useful links for R and C++
 
-- (Kalman Filter in C++](/Kalman Filter in C++.pdf) contains an introduction to Kalman filters
+- [Kalman Filter in C++](/Kalman Filter in C++.pdf) contains an introduction to Kalman filters
 - Online introductory [book](https://isocpp.org/tour) on C++ by its creator, Bjarne Stroustrup.
 - Introductory PDF to the [Rcpp](https://cran.r-project.org/web/packages/Rcpp/vignettes/Rcpp-introduction.pdf) package.
 - [Rcpp Gallery](https://gallery.rcpp.org/): a collection of articles and examples for the Rcpp package.
