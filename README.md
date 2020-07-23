@@ -17,19 +17,22 @@ James Giller is a software engineer for Land Rover Jaguar and is currently worki
 
 You will be able to find an R studio cloud instance with the code and packages installed for the talk [here](https://rstudio.cloud/project/1471581). If this is your first time using R studio cloud, you may need to create an account. The file `Talk_code_Kalman_fitler.r` contains the code for the talk.  After the talk, all the code will be available in this repo. 
 
-After the talk you will be able to implement a simple Kalman filter in C++ and use if from R for estimate position from sensor data.
+After the talk you will be able to implement a simple Kalman filter in C++ and use if from within R.
 
-![GitHub Logo](/filter_y.gif)
+![Animated plot of the Kalman Filter working on an example positional data set](/filter_y.gif)
 
 ## Tutorials and useful links for R and C++
 
-- An [rcpp](https://cran.r-project.org/web/packages/Rcpp/vignettes/Rcpp-introduction.pdf) introduction.
+- Online introductory [book](https://isocpp.org/tour) on C++ by its creator, Bjarne Stroustrup.
+- Introductory PDF to the [Rcpp](https://cran.r-project.org/web/packages/Rcpp/vignettes/Rcpp-introduction.pdf) package.
+- [Rcpp Gallery](https://gallery.rcpp.org/): a collection of articles and examples for the Rcpp package.
 - Advanced R by Hadley Wickham contains useful walk guide to C++ and R can be found [here](http://adv-r.had.co.nz/Rcpp.html).
 - Online IDE for R [here](https://rstudio.cloud).
 - You can download R from [here](https://www.r-project.org/).
-- RStudios is a powerful IDE for R, we will use to compile the C++ code, can be found [here](https://rstudio.com/products/rstudio/download/).
+- RStudio is a powerful IDE for R, we will use to compile the C++ code, can be found [here](https://rstudio.com/products/rstudio/download/).
 - ggplot function references [here](https://ggplot2.tidyverse.org/reference/).
 - An extensive introduction to ggplot2 [here](http://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html).
+- The [Armadillo](http://arma.sourceforge.net/docs.html) library for linear algebra in C++.
 
 ## Free books on R
 
